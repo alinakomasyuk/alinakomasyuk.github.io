@@ -1,0 +1,33 @@
+h1{
+    color: rgb(12, 102, 96);
+}
+body{
+    background-color: rgb(228, 226, 223);
+}
+.bio{
+    color: rgb(16, 207, 207);
+}
+.groups{
+    color: lightskyblue;
+}
+.dogs{
+    color: rgb(3, 74, 214);
+    font-size: 16pt;
+}
+.hobby{
+    color: rgb(22, 46, 92);
+    font-size: 16pt;
+}
+.menu{
+    list-style-type: none;
+}
+.menu a{
+    font-size: 14pt;
+    line-height: 4pt;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: darkred;
+    background-color: burlywood;
+}
