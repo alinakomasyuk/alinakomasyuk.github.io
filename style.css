@@ -1,33 +1,182 @@
 h1{
     color: rgb(12, 102, 96);
 }
+
+h2{
+    color: rgb(12, 102, 96);
+    
+}
+h3{
+    color: rgb(204, 203, 203);
+    text-align: center;
+}
+
+
 body{
-    background-color: rgb(228, 226, 223);
+    background-color: rgb(204, 203, 203);
+    margin: 0pt;
 }
-.bio{
-    color: rgb(16, 207, 207);
-}
-.groups{
-    color: lightskyblue;
-}
-.dogs{
-    color: rgb(3, 74, 214);
+ 
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 16pt;
+   
+    
 }
-.hobby{
-    color: rgb(22, 46, 92);
-    font-size: 16pt;
+.fline{
+    font-size: larger;
 }
+
 .menu{
     list-style-type: none;
+    margin: 0pt;
+    padding: 10pt 32pt;
+    justify-content: flex-end;
+
+    display: flex;
+    flex-direction: row;
 }
+
 .menu a{
-    font-size: 14pt;
+    font-size: 14px;
     line-height: 4pt;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 4px 16px;
+    margin: 0px 4px;
+    border: 0px solid transparent;
+    border-radius: 16px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .menu a:hover{
-    color: darkred;
-    background-color: burlywood;
+    color: rgb(50, 50, 50);
+    background-color: rgb(204, 203, 203);
+}
+
+
+.bar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0pt 0pt;
+    align-items: center;
+
+    position: sticky;
+    top: 0%;
+}
+.bar a{
+    color: rgb(204, 203, 203);
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    margin-left: 50pt;
+} 
+
+.first{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin-top: -3%;
+   
+}
+.aboutme{
+     display: flex;
+     width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.aboutmetext{
+    font-size: 15pt;
+    color: rgb(34, 34, 34);
+    width: 600px;
+    padding-left: 80px;
+    border: none ;
+    background-color:  rgb(204, 203, 203);
+    padding: 45px 50px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.aboutmetext a{
+    text-decoration: none ;
+    color: rgb(43, 89, 89);
+}
+
+.facts{
+    font-size: 13pt;
+    color: rgb(50, 50, 50);
+    width: 500px;  
+}
+
+.skillsleft{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.programs{
+    font-size: 20pt;
+    justify-content: center;
+    border: none ;
+    background-color:  rgb(32, 32, 32);
+    padding-top: 10pt;
+    padding-bottom: 50pt;
+    padding-left: 70pt;
+    padding-right: 70pt;
+    margin-top: 50px;
+    margin-left: 175px ;
+    margin-right: 200px;
+    width: 800px;
+    
+}
+
+.iconprog{
+    justify-content: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    
+    gap: 40px;
+    
+    
+}
+.skills{
+    align-items: center;
+    justify-content: space-around;
+}
+.skillsright {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.skillslist{
+    font-size: 16pt;
+    color: rgb(18, 18, 18);
+    width: 550px;
+    padding-right: 100pt;
+   
+   
+
 }
