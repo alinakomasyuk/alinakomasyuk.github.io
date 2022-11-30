@@ -91,8 +91,8 @@ body{
    
 }
 .aboutme{
-     display: flex;
-     width: 100%;
+    display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -107,10 +107,8 @@ body{
     color: rgb(34, 34, 34);
     width: 600px;
     padding-left: 80px;
-    border: none ;
     background-color:  rgb(204, 203, 203);
     padding: 45px 50px;
-    position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
     
@@ -176,7 +174,74 @@ body{
     color: rgb(18, 18, 18);
     width: 550px;
     padding-right: 100pt;
-   
-   
 
+}
+
+.portfolio{
+    background-color: rgb(32, 32, 32);
+    
+}
+
+.porttitle{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30pt;
+    color:rgb(69, 135, 135);
+    font-weight: bold;
+    
+}
+
+.portfoto{
+    margin-top: -50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color:rgb(204, 203, 203);
+    margin-left: 70px;
+   
+}
+
+.block1{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  
+}
+.block2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 100px;
+  
+}
+
+.contacts{
+    height: 250px;
+    
+}
+
+.contitle{
+    border-top-style: double;
+    border-width: 10px;
+    border-top-color: rgb(57, 58, 58);
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    font-size: 30pt;
+    color:rgb(69, 135, 135);
+    font-weight: bold;
+    justify-content: center;
+    
+}
+.links{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a{
+    align-items: center;
+    color: rgb(204, 203, 203);
+    font-size: 26pt;
+    text-decoration: none;
 }
