@@ -1,14 +1,19 @@
 h1{
-    color: rgb(12, 102, 96);
+    color: rgb(32, 132, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40pt;
 }
 
 h2{
     color: rgb(12, 102, 96);
-    
+    font-size: 30pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3{
     color: rgb(204, 203, 203);
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
 }
 
 
@@ -20,16 +25,23 @@ body{
 
 .hello {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    
     font-size: 16pt;
+    flex-direction: column;
    
     
 }
 .fline{
     font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.secondline{
+    font-size: 30pt;
+    color: rgb(32, 132, 125);
+    margin-top: -50pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .menu{
     list-style-type: none;
     margin: 0pt;
@@ -88,7 +100,7 @@ body{
     min-height: 100vh;
     min-width: 100vh;
     margin-top: -3%;
-   
+    
 }
 .aboutme{
     display: flex;
@@ -103,7 +115,8 @@ body{
 }
 
 .aboutmetext{
-    font-size: 15pt;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(34, 34, 34);
     width: 600px;
     padding-left: 80px;
@@ -120,7 +133,7 @@ body{
 }
 
 .facts{
-    font-size: 13pt;
+    
     color: rgb(50, 50, 50);
     width: 500px;  
 }
@@ -170,78 +183,128 @@ body{
     padding-right: 10px;
 }
 .skillslist{
-    font-size: 16pt;
+    font-size: 14pt;
     color: rgb(18, 18, 18);
     width: 550px;
     padding-right: 100pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .portfolio{
     background-color: rgb(32, 32, 32);
+    min-height: 100vh;
+    min-width: 100vh;
+    justify-content: center;
+    
     
 }
 
 .porttitle{
+    padding-left: 175px;
     padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    font-size: 30pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 24pt;
     color:rgb(69, 135, 135);
     font-weight: bold;
     
 }
 
-.portfoto{
-    margin-top: -50px;
-    flex-direction: column;
-    flex-wrap: wrap;
+.portphoto{
+    column-count: 2;
+    margin-left: 200px;
     color:rgb(204, 203, 203);
-    margin-left: 70px;
    
+
 }
 
-.block1{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-  
+.figcaption{
+  padding-bottom: 25px;
+  font-size: 15px;
+ 
 }
-.block2{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 100px;
-  
+
+.port1{
+    padding-bottom: 25px;
+}
+.port3{
+    padding-bottom: 25px;
 }
 
 .contacts{
-    height: 250px;
-    
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color:rgb(204, 203, 203);
+    justify-content: center;
+    align-items: center;
+ 
 }
 
-.contitle{
-    border-top-style: double;
-    border-width: 10px;
-    border-top-color: rgb(57, 58, 58);
+.conttitle{
+    text-align: center;
     align-items: center;
     display: flex;
-    margin-top: 50px;
+    justify-content: center;
     font-size: 30pt;
     color:rgb(69, 135, 135);
     font-weight: bold;
-    justify-content: center;
+    padding-top: 120pt;
     
 }
-.links{
+
+.link{
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    display: flex;
+    gap: 170px;
     justify-content: space-around;
+    padding: 100pt 200pt;
+}
+/* ну не розумію як воно працює :(((((((((
+@media screen and (max-width: 320px){
+    .skills{
+      max-width: 100px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
 }
 
-.links a{
-    align-items: center;
-    color: rgb(204, 203, 203);
-    font-size: 26pt;
-    text-decoration: none;
+@media screen and (max-width: 320px){
+    .bar{
+        background-color: black;
+        max-width: 320px;
+        display: flex;
+    
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0pt 0pt;
+        align-items: center;
+    
+        position: sticky;
+        top: 0%;
+    }
 }
+
+
+
+
+@media (max-width: 320px){
+    .contacts{
+       width: 320px;
+        height: 100vh;
+        background-color:rgb(204, 203, 203);
+        justify-content: center;
+        flex-direction: column ;
+    }
+}
+
+@media (max-width: 320px){
+    .portfolio{
+       width: 320px;
+        height: 100vh;
+        background-color:rgb(204, 203, 203);
+        justify-content: center;
+        flex-direction: column ;
+    }
+}*/
